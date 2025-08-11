@@ -12,24 +12,7 @@ We can find potential genes in a genome by looking for common patterns shared ac
 
 Open `homework-1.ipynb` to get started.
 
-## Consent Form for Participation in Automated Grading Study
-
-We are conducting a study on the use of large language models (LLMs) to help grade homework assignments. Your homework will either be graded by an LLM or a human TA, chosen at random. You will not know which method was used. You may request a human review of any section of your graded homework after receiving your grades. Participation is purely voluntary, and opting out will not affect your grade in any way. For additional information, please contact the TAs via e-mail: pavlin.policar@fri.uni-lj.si and martin.spendl@fri.uni-lj.si.
-
-If you do not wish to participate in this study, please uncheck the box below (remove the `x` inside the square brackets):
-
-- [x] I consent to participate in the LLM grading study.
-
-Thank you for your contribution to this research!
-
 ## Submission and Grading
-
-To complete the homework, you need to commit and push your work, including all the code, notebook, and images to your GitHub repository. You do not need to submit anything else. We will open assignments on Ucilnica, but these are there only for your convenince, so the due dates are visible in your Ucilnica calendar.
-
-For grading, we automatically generate a report for every student, so we never actually go through your code and notebooks. Our report generator automatically goes through your submission and pulls out the relevant bits.
-
-There are three types of exercises/answers within each homework:
-
 1. *Coding exercises* require you to implement one of the algorithms you learned about in lectures. We will always include Python stubs for the functions you need to implement in a separate file (most often `helper_functions.py`). Please read the function docstrings for expected parameter and return types. Coding problems will be automatically graded with unit tests.
 
    For some problem sets, we may provide unit tests, which you will be able to find in `test_helper_functions.py`. These unit tests are meant only to serve as a guideline and are not exhaustive. It is good practice to write your own tests to convince yourself that your implementation works as intended. Your code will be graded on a different, more exhaustive set of unit tests.
@@ -38,7 +21,6 @@ There are three types of exercises/answers within each homework:
 
 3. *Variable answers* require you to write down your answers into variables. Please be careful that the variables have the exact same name as in the instructions. We will always provide a stub in the notebook. We don't actually run your entire notebooks, we evaluate only the variable we are grading. This means that your variables should be set explicitly. For instance `x = 5 / 3` or `answer_var = x` **will not work** and will receive zero points. All answer variables should be set explicitly e.g. `answer_var = 1.6666` in for this simple example. Please ensure there are no syntax errors in your notebook. We've added GitHub Actions that test syntax errors when you push your code to GitHub. If there is a green checkmark at the top of your repository, your code has no syntax errors. If there is a red X at the top, your notebook did not compile correctly, so make sure you eliminate any errors.
 
-We will automatically fetch your solutions at the deadline and these submissions will be graded by default. **If you submit after the deadline -- using your late days -- please notify Pavlin or Martin via email**, and we will re-evaluate your submission.
 
 ## Environment instructions
 
